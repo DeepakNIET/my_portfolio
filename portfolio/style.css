@@ -1,0 +1,74 @@
+body {
+    background: url('ia.jpg') no-repeat center center fixed;
+    background-size: cover;
+    color: #ffffff;
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    backdrop-filter: blur(1px);
+}
+
+
+
+header {
+    text-align: center;
+    padding: 50px 0;
+}
+
+section {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    padding: 50px;
+}
+
+
+.project {
+    position: relative;
+    width: 300px;
+    padding: 20px;
+    border: 1px solid #61dafb;
+    border-radius: 10px;
+    margin-bottom: 30px;
+    background: rgba(255, 255, 255, 0.1);
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+    text-align: center; /* Center-align text */
+}
+
+.project::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 50%;
+    background: linear-gradient(rgba(255, 255, 255, 0.3), rgba(255, 255, 255, 0));
+    z-index: 1;
+    border-radius: 10px 10px 0 0;
+}
+
+.project h2 {
+    color: #ffff00;
+}
+
+.project img.github-icon {
+    width: 50px;
+    height: auto;
+    margin-top: 10px; /* Adjust the margin as needed */
+}
+
+
+footer {
+    text-align: center;
+    padding: 20px 0;
+    margin-top: auto;
+    background: #111111;
+}
+
+h1{
+    color: #ffff00;
+}
+
