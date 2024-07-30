@@ -849,7 +849,7 @@ html {
   /* ------------------------------------------------------------------------------ */
   .icons {
     position: fixed;
-    top: 55%;
+    top: 60%;
     right: 20px;
     transform: translateY(-50%);
     display: flex;
