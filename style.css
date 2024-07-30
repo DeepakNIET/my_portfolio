@@ -703,6 +703,10 @@ html {
     margin-top: 9rem;
     transition: all 0.3s linear;
   }
+
+  .common-heading {
+    padding-left: 20px;
+  }
   
   .section-contact-main .grid {
     gap: 3.2rem;
