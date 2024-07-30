@@ -849,7 +849,7 @@ html {
   /* ------------------------------------------------------------------------------ */
   .icons {
     position: fixed;
-    top: 60%;
+    top: 50%;
     right: 20px;
     transform: translateY(-50%);
     display: flex;
@@ -942,6 +942,8 @@ Media Queries Section
     opacity: 0;
     visibility: hidden;
     pointer-events: none;
+    padding-left: 20px;
+    padding-right: 20px;
   }
 
   .navbar-lists {
@@ -1126,6 +1128,16 @@ Media Queries Section
 
   .section-contact .grid-two-column {
     grid-template-columns: 1fr ;
+  }
+
+    .icons {
+    position: fixed;
+    top: 60%;
+    right: 20px;
+    transform: translateY(-50%);
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
   }
 
   .section-contact{
