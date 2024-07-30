@@ -1133,7 +1133,7 @@ Media Queries Section
     .icons {
     position: fixed;
     top: 55%;
-    right: 20px;
+    right: 15px;
     transform: translateY(-50%);
     display: flex;
     flex-direction: column;
